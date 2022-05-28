@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_custom_logements",
+  "info": {
+    "name": "Logements",
+    "icon": "atom"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "Budget": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    }
+  }
+}

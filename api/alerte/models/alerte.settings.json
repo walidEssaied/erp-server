@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "alertes",
+  "info": {
+    "name": "alerte"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "message": {
+      "type": "text"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

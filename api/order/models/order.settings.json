@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "name": "order",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "quantite": {
+      "type": "biginteger"
+    },
+    "prix_total": {
+      "type": "biginteger"
+    },
+    "products": {
+      "via": "order",
+      "collection": "product"
+    },
+    "container": {
+      "type": "biginteger"
+    },
+    "status": {
+      "type": "boolean"
+    },
+    "type_order": {
+      "type": "string"
+    },
+    "avance": {
+      "type": "biginteger"
+    },
+    "orderToClient": {
+      "via": "orders",
+      "model": "client"
+    },
+    "user": {
+      "via": "orders",
+      "plugin": "users-permissions",
+      "columnName": "id",
+      "model": "user"
+    }
+  }
+}
