@@ -10,6 +10,7 @@
     "strapi": "strapi"
   },
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "knex": "0.21.18",
     "node": "^16.13.2",
     "nvm": "^0.0.4",
@@ -27,6 +28,7 @@
     "strapi-plugin-upload": "3.6.5",
     "strapi-plugin-users-permissions": "3.6.5",
     "strapi-utils": "3.6.5",
+    "yargs": "^17.6.2",
     "yarn": "^1.22.17"
   },
   "author": {
